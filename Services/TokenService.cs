@@ -24,7 +24,7 @@ namespace Services
 
         public TokenService(UserManager<User> userManager, RoleManager<Role> roleManager,
             IConfiguration config)
-        {
+        {//lalala
             _roleManager = roleManager;
             _userManager = userManager;
             _config = config;

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BblmFeb0waJJya/169uJMSpUESYrCzmvOF6vRB92ogth8PDDIt0lnOW7YrfAbW6EmV5jiZQwFysy0IUb0lcAPg==",
+  "dgSpecHash": "+1vcv5bv1g98BM8oHjaBG6yU2aQXDnZaVeYhClN5uCfol73pBdXnPO+P+P6IZ59j73pMOHTD977x99SwQ9vTIQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\izabe\\Documents\\dotNET Projects\\QuitIt\\QuitIt-Backend-main\\DataLayer\\DataLayer.csproj",
+  "projectFilePath": "C:\\Users\\izabe\\Documents\\Facultet\\IP\\new repo\\DataLayer\\DataLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\izabe\\.nuget\\packages\\bouncycastle.netcore\\1.8.3\\bouncycastle.netcore.1.8.3.nupkg.sha512",
     "C:\\Users\\izabe\\.nuget\\packages\\google.protobuf\\3.6.1\\google.protobuf.3.6.1.nupkg.sha512",
