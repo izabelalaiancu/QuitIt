@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vHUEI1qh33PSSFJncwA0Tc5FlyvaYaa+X9ixrCe4Nzc54W8rfZUDOjrqcNcVjXi2vxTyq8PB1yGrAJ+eOUAfOA==",
+  "dgSpecHash": "L7ivwC0Cu4rOT8A91VEeoA6sLFUxFVUYor0M2K1QwTT35mQbJTI5wFTNFnpBavGBo8mkwF+Vu8ZGbsr5WWqcaw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\izabe\\Documents\\dotNET Projects\\QuitIt\\QuitIt-Backend-main\\Services\\Services.csproj",
+  "projectFilePath": "C:\\Users\\izabe\\Documents\\Facultet\\IP\\new repo\\Services\\Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\izabe\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\izabe\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",

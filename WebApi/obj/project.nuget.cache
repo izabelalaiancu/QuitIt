@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "anKv0uZ41QideHfo9aa8Ix1YkvuxTEBHB0AQBnctPMf8C4+PlwQX1gFEMo5nZmV9HPTzBqAZvgRZeHkqbamvUw==",
+  "dgSpecHash": "Bt8FB1ZRTccqih7yEbeBDWvlgg9SVKxMx1j3OY8p05oc7WZ0NZXf+wMCFpLLjIf5D/c9Y+XwTjfOfd9RTErYxQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\izabe\\Documents\\dotNET Projects\\QuitIt\\QuitIt-Backend-main\\WebApi\\WebApi.csproj",
+  "projectFilePath": "C:\\Users\\izabe\\Documents\\Facultet\\IP\\new repo\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\izabe\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\izabe\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",
