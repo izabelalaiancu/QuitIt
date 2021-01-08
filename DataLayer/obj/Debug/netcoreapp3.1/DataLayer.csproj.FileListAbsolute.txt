@@ -1,0 +1,27 @@
+C:\Users\raluc\source\repos\Faculty\Ip\QuitIt\QuitIt\QuitIt-Backend\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.deps.json
+C:\Users\raluc\source\repos\Faculty\Ip\QuitIt\QuitIt\QuitIt-Backend\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.dll
+C:\Users\raluc\source\repos\Faculty\Ip\QuitIt\QuitIt\QuitIt-Backend\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.csprojAssemblyReference.cache
+C:\Users\raluc\source\repos\Faculty\Ip\QuitIt\QuitIt\QuitIt-Backend\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.AssemblyInfoInputs.cache
+C:\Users\raluc\source\repos\Faculty\Ip\QuitIt\QuitIt\QuitIt-Backend\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.AssemblyInfo.cs
+C:\Users\raluc\source\repos\Faculty\Ip\QuitIt\QuitIt\QuitIt-Backend\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.pdb
+C:\Users\raluc\source\repos\Faculty\Ip\QuitIt\QuitIt\QuitIt-Backend\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.dll
+C:\Users\raluc\source\repos\Faculty\Ip\QuitIt\QuitIt\QuitIt-Backend\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.pdb
+C:\Users\raluc\source\repos\Faculty\Ip\QuitIt\QuitIt\QuitIt-Backend\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\nuuit\Desktop\Projects\QuitIt-Backend\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.deps.json
+C:\Users\nuuit\Desktop\Projects\QuitIt-Backend\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.dll
+C:\Users\nuuit\Desktop\Projects\QuitIt-Backend\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.pdb
+C:\Users\nuuit\Desktop\Projects\QuitIt-Backend\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.csprojAssemblyReference.cache
+C:\Users\nuuit\Desktop\Projects\QuitIt-Backend\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.AssemblyInfoInputs.cache
+C:\Users\nuuit\Desktop\Projects\QuitIt-Backend\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.AssemblyInfo.cs
+C:\Users\nuuit\Desktop\Projects\QuitIt-Backend\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\nuuit\Desktop\Projects\QuitIt-Backend\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.dll
+C:\Users\nuuit\Desktop\Projects\QuitIt-Backend\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.pdb
+C:\Users\izabe\Documents\dotNET Projects\QuitIt\QuitIt-Backend-main\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.deps.json
+C:\Users\izabe\Documents\dotNET Projects\QuitIt\QuitIt-Backend-main\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.dll
+C:\Users\izabe\Documents\dotNET Projects\QuitIt\QuitIt-Backend-main\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.pdb
+C:\Users\izabe\Documents\dotNET Projects\QuitIt\QuitIt-Backend-main\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.csprojAssemblyReference.cache
+C:\Users\izabe\Documents\dotNET Projects\QuitIt\QuitIt-Backend-main\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.AssemblyInfoInputs.cache
+C:\Users\izabe\Documents\dotNET Projects\QuitIt\QuitIt-Backend-main\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.AssemblyInfo.cs
+C:\Users\izabe\Documents\dotNET Projects\QuitIt\QuitIt-Backend-main\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\izabe\Documents\dotNET Projects\QuitIt\QuitIt-Backend-main\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.dll
+C:\Users\izabe\Documents\dotNET Projects\QuitIt\QuitIt-Backend-main\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.pdb
