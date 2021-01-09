@@ -35,7 +35,7 @@ namespace Services
             if (userVice != null)
             {
                 UnitOfWork.UserVices.Delete(userVice);
-                UnitOfWork.SaveChangesAsync();
+                await UnitOfWork.SaveChangesAsync();
             }
             return "Vice deleted!";
         }
