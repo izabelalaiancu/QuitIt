@@ -21,6 +21,7 @@ namespace WebApi.Controllers
             _notification = notificationService;
         }
 
+
         [HttpGet("{id}")]
         public async Task<ActionResult<NotificationDto>> GetUnseenNotificationByIdAsync([FromRoute] string id)
         {
