@@ -13,6 +13,7 @@ namespace DataLayer.Models
         }
 
 
+
         public static readonly ILoggerFactory MyLoggerFactory
             = LoggerFactory.Create(builder => { });
 
