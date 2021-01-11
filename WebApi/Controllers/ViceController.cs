@@ -13,7 +13,6 @@ namespace WebApi.Controllers
 
     [ApiController]
     [Route("api/vices")]
-    [Authorize]
     public class ViceController : ControllerBase
     {
         private readonly IUserViceService _userViceService;

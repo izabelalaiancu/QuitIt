@@ -67,7 +67,7 @@ namespace WebApi.Controllers
 
 
         [HttpGet("Token/Valid")]
-        [Authorize(Roles = Role.User)]
+        // [Authorize(Roles = Role.User)]
         public ActionResult CheckIfStillValid()
         {
             return Ok("Yep, still valid.");

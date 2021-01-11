@@ -10,9 +10,11 @@ using Services.Dtos;
 
 namespace WebApi.Controllers
 {
-    [ApiController]
-    [Authorize]
+    
+    
     [Route("api/notifications")]
+    [ApiController]
+    // [Authorize]
     public class NotificationController : ControllerBase
     {
         private readonly INotificationService _notification;
