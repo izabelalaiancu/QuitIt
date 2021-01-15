@@ -3,6 +3,7 @@
 # Add steps that publish symbols, save build artifacts, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core
 
+
 trigger:
 - main
 
@@ -15,8 +16,9 @@ variables:
   buildConfiguration: 'Release'
 
 steps:
-- task: NuGetToolInstaller@1
 
+- task: NuGetToolInstaller@1
+- task: NuGetAuthenticate@0
 - task: NuGetCommand@2
   inputs:
     restoreSolution: '$(solution)'
