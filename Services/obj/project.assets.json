@@ -6036,6 +6036,7 @@
       "outputPath": "C:\\Users\\raluc\\source\\repos\\Faculty\\QuitIt\\Services\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
+        "C:\\Users\\raluc\\source\\repos\\Faculty\\QuitIt\\NuGet.Config",
         "C:\\Users\\raluc\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -6043,9 +6044,7 @@
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://pkgs.dev.azure.com/CoffeeFueledPandas/_packaging/CoffeeFueledPandas/nuget/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {

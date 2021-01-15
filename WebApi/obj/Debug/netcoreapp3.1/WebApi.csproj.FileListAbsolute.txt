@@ -363,9 +363,6 @@ C:\Users\raluc\source\repos\Faculty\QuitIt\WebApi\bin\Debug\netcoreapp3.1\Servic
 C:\Users\raluc\source\repos\Faculty\QuitIt\WebApi\obj\Debug\netcoreapp3.1\WebApi.csprojAssemblyReference.cache
 C:\Users\raluc\source\repos\Faculty\QuitIt\WebApi\obj\Debug\netcoreapp3.1\WebApi.AssemblyInfoInputs.cache
 C:\Users\raluc\source\repos\Faculty\QuitIt\WebApi\obj\Debug\netcoreapp3.1\WebApi.AssemblyInfo.cs
-C:\Users\raluc\source\repos\Faculty\QuitIt\WebApi\obj\Debug\netcoreapp3.1\WebApi.csproj.CoreCompileInputs.cache
-C:\Users\raluc\source\repos\Faculty\QuitIt\WebApi\obj\Debug\netcoreapp3.1\WebApi.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\raluc\source\repos\Faculty\QuitIt\WebApi\obj\Debug\netcoreapp3.1\WebApi.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\raluc\source\repos\Faculty\QuitIt\WebApi\obj\Debug\netcoreapp3.1\WebApi.RazorTargetAssemblyInfo.cache
 C:\Users\raluc\source\repos\Faculty\QuitIt\WebApi\obj\Debug\netcoreapp3.1\WebApi.csproj.CopyComplete
 C:\Users\raluc\source\repos\Faculty\QuitIt\WebApi\obj\Debug\netcoreapp3.1\staticwebassets\WebApi.StaticWebAssets.Manifest.cache
@@ -373,3 +370,11 @@ C:\Users\raluc\source\repos\Faculty\QuitIt\WebApi\obj\Debug\netcoreapp3.1\static
 C:\Users\raluc\source\repos\Faculty\QuitIt\WebApi\obj\Debug\netcoreapp3.1\WebApi.dll
 C:\Users\raluc\source\repos\Faculty\QuitIt\WebApi\obj\Debug\netcoreapp3.1\WebApi.pdb
 C:\Users\raluc\source\repos\Faculty\QuitIt\WebApi\obj\Debug\netcoreapp3.1\WebApi.genruntimeconfig.cache
+C:\Users\raluc\source\repos\Faculty\QuitIt\WebApi\bin\Debug\netcoreapp3.1\AWSSDK.Core.dll
+C:\Users\raluc\source\repos\Faculty\QuitIt\WebApi\bin\Debug\netcoreapp3.1\aws-beanstalk-tools-defaults.json
+C:\Users\raluc\source\repos\Faculty\QuitIt\WebApi\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\raluc\source\repos\Faculty\QuitIt\WebApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\raluc\source\repos\Faculty\QuitIt\WebApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\raluc\source\repos\Faculty\QuitIt\WebApi\obj\Debug\netcoreapp3.1\WebApi.csproj.CoreCompileInputs.cache
+C:\Users\raluc\source\repos\Faculty\QuitIt\WebApi\obj\Debug\netcoreapp3.1\WebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\raluc\source\repos\Faculty\QuitIt\WebApi\obj\Debug\netcoreapp3.1\WebApi.MvcApplicationPartsAssemblyInfo.cache
