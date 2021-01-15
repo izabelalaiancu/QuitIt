@@ -1,12 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "sfvucDmZ8PuUEW09jWu++hPEziz42OmApRyGp1BGFWwYCkR5+yv6PHXmTrQe7hKd7V4MS6oXtwC6wBD3t2gvHw==",
+  "dgSpecHash": "Wl/Js6Q8cnK4h5jEcTKjH8rHhnP0JM2355eFNeMW7rpwtujtmT3WP4b5ov9PC8llfbsIR7KdC6txkbpzUPv3vw==",
   "success": true,
   "projectFilePath": "C:\\Users\\raluc\\source\\repos\\Faculty\\QuitIt\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\raluc\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\raluc\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",
-    "C:\\Users\\raluc\\.nuget\\packages\\awssdk.core\\3.5.1.59\\awssdk.core.3.5.1.59.nupkg.sha512",
     "C:\\Users\\raluc\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\raluc\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\raluc\\.nuget\\packages\\microsoft.aspnetcore.authentication.cookies\\2.2.0\\microsoft.aspnetcore.authentication.cookies.2.2.0.nupkg.sha512",

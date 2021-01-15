@@ -10,7 +10,7 @@
       "NETCOREAPP",
       "NETCOREAPP3_1"
     ],
-    "languageVersion": "",
+    "languageVersion": "8.0",
     "platform": "",
     "allowUnsafe": false,
     "warningsAsErrors": false,
@@ -24,7 +24,6 @@
     ".NETCoreApp,Version=v3.1": {
       "WebApi/1.0.0": {
         "dependencies": {
-          "AWSSDK.Core": "3.5.1.59",
           "AutoMapper": "10.1.1",
           "DataLayer": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "3.1.8",
@@ -336,17 +335,6 @@
         },
         "compile": {
           "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
-        }
-      },
-      "AWSSDK.Core/3.5.1.59": {
-        "runtime": {
-          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
-            "assemblyVersion": "3.3.0.0",
-            "fileVersion": "3.5.1.59"
-          }
-        },
-        "compile": {
-          "lib/netcoreapp3.1/AWSSDK.Core.dll": {}
         }
       },
       "Microsoft.AspNetCore.Authentication/2.2.0": {
@@ -3469,13 +3457,6 @@
       "sha512": "sha512-dQyGCAYcHbGuimVvCMu4Ea2S1oYOlgO9XfVdClmY5wgygJMZoS57emPzH0qNfknmtzMm4QbDO9i237W5IDjU1A==",
       "path": "automapper.extensions.microsoft.dependencyinjection/8.1.0",
       "hashPath": "automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512"
-    },
-    "AWSSDK.Core/3.5.1.59": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-rKac8Rv/3fihbWW1ysJpi1qYJWND//0rrKW73k+g3VQCye5FWOazGTKwel9cG95uJDHOD38opgPwwe1EWqbcMg==",
-      "path": "awssdk.core/3.5.1.59",
-      "hashPath": "awssdk.core.3.5.1.59.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authentication/2.2.0": {
       "type": "package",

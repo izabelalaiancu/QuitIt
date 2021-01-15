@@ -29,15 +29,6 @@
           "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
         }
       },
-      "AWSSDK.Core/3.5.1.59": {
-        "type": "package",
-        "compile": {
-          "lib/netcoreapp3.1/AWSSDK.Core.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/AWSSDK.Core.dll": {}
-        }
-      },
       "Microsoft.AspNetCore.Authentication/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -2156,34 +2147,6 @@
         "automapper.extensions.microsoft.dependencyinjection.nuspec",
         "icon.png",
         "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll"
-      ]
-    },
-    "AWSSDK.Core/3.5.1.59": {
-      "sha512": "rKac8Rv/3fihbWW1ysJpi1qYJWND//0rrKW73k+g3VQCye5FWOazGTKwel9cG95uJDHOD38opgPwwe1EWqbcMg==",
-      "type": "package",
-      "path": "awssdk.core/3.5.1.59",
-      "hasTools": true,
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "awssdk.core.3.5.1.59.nupkg.sha512",
-        "awssdk.core.nuspec",
-        "lib/net35/AWSSDK.Core.dll",
-        "lib/net35/AWSSDK.Core.pdb",
-        "lib/net35/AWSSDK.Core.xml",
-        "lib/net45/AWSSDK.Core.dll",
-        "lib/net45/AWSSDK.Core.pdb",
-        "lib/net45/AWSSDK.Core.xml",
-        "lib/netcoreapp3.1/AWSSDK.Core.dll",
-        "lib/netcoreapp3.1/AWSSDK.Core.pdb",
-        "lib/netcoreapp3.1/AWSSDK.Core.xml",
-        "lib/netstandard1.3/AWSSDK.Core.dll",
-        "lib/netstandard1.3/AWSSDK.Core.pdb",
-        "lib/netstandard1.3/AWSSDK.Core.xml",
-        "lib/netstandard2.0/AWSSDK.Core.dll",
-        "lib/netstandard2.0/AWSSDK.Core.pdb",
-        "lib/netstandard2.0/AWSSDK.Core.xml",
-        "tools/account-management.ps1"
       ]
     },
     "Microsoft.AspNetCore.Authentication/2.2.0": {
@@ -7126,7 +7089,6 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "AWSSDK.Core >= 3.5.1.59",
       "AutoMapper >= 10.1.1",
       "DataLayer >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 3.1.8",
@@ -7182,10 +7144,6 @@
     "frameworks": {
       "netcoreapp3.1": {
         "dependencies": {
-          "AWSSDK.Core": {
-            "target": "Package",
-            "version": "[3.5.1.59, )"
-          },
           "AutoMapper": {
             "target": "Package",
             "version": "[10.1.1, )"

@@ -80,7 +80,6 @@ C:\Users\raluc\source\repos\Faculty\Ip\QuitIt\QuitIt\QuitIt-Backend\WebApi\obj\R
 C:\Users\raluc\source\repos\Faculty\QuitIt\WebApi\bin\Release\netcoreapp3.1\appsettings.Development.json
 C:\Users\raluc\source\repos\Faculty\QuitIt\WebApi\bin\Release\netcoreapp3.1\Properties\launchSettings.json
 C:\Users\raluc\source\repos\Faculty\QuitIt\WebApi\bin\Release\netcoreapp3.1\appsettings.json
-C:\Users\raluc\source\repos\Faculty\QuitIt\WebApi\bin\Release\netcoreapp3.1\aws-beanstalk-tools-defaults.json
 C:\Users\raluc\source\repos\Faculty\QuitIt\WebApi\bin\Release\netcoreapp3.1\WebApi.exe
 C:\Users\raluc\source\repos\Faculty\QuitIt\WebApi\bin\Release\netcoreapp3.1\WebApi.deps.json
 C:\Users\raluc\source\repos\Faculty\QuitIt\WebApi\bin\Release\netcoreapp3.1\WebApi.runtimeconfig.json
@@ -89,7 +88,6 @@ C:\Users\raluc\source\repos\Faculty\QuitIt\WebApi\bin\Release\netcoreapp3.1\WebA
 C:\Users\raluc\source\repos\Faculty\QuitIt\WebApi\bin\Release\netcoreapp3.1\WebApi.pdb
 C:\Users\raluc\source\repos\Faculty\QuitIt\WebApi\bin\Release\netcoreapp3.1\AutoMapper.dll
 C:\Users\raluc\source\repos\Faculty\QuitIt\WebApi\bin\Release\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
-C:\Users\raluc\source\repos\Faculty\QuitIt\WebApi\bin\Release\netcoreapp3.1\AWSSDK.Core.dll
 C:\Users\raluc\source\repos\Faculty\QuitIt\WebApi\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
 C:\Users\raluc\source\repos\Faculty\QuitIt\WebApi\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 C:\Users\raluc\source\repos\Faculty\QuitIt\WebApi\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
@@ -162,3 +160,6 @@ C:\Users\raluc\source\repos\Faculty\QuitIt\WebApi\obj\Release\netcoreapp3.1\stat
 C:\Users\raluc\source\repos\Faculty\QuitIt\WebApi\obj\Release\netcoreapp3.1\WebApi.dll
 C:\Users\raluc\source\repos\Faculty\QuitIt\WebApi\obj\Release\netcoreapp3.1\WebApi.pdb
 C:\Users\raluc\source\repos\Faculty\QuitIt\WebApi\obj\Release\netcoreapp3.1\WebApi.genruntimeconfig.cache
+C:\Users\raluc\source\repos\Faculty\QuitIt\WebApi\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\raluc\source\repos\Faculty\QuitIt\WebApi\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\raluc\source\repos\Faculty\QuitIt\WebApi\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
