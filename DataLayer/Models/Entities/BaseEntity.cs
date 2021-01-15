@@ -8,6 +8,7 @@ namespace DataLayer.Models.Entities
     {
         public BaseEntity()
         {
+            Id = Guid.NewGuid().ToString();
             CreatedAt = DateTime.UtcNow;
         }
         [Key]

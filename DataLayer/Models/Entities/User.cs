@@ -9,8 +9,9 @@ namespace DataLayer.Models.Entities
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public List<Notification> Notifications { get; set; }
-        public List<UserVice> UserVices { get; set; }
+        public IList<Notification> Notifications { get; set; }
+        public IList<UserVice> UserVices { get; set; }
+        public IList<Achievement> Achievements { get; set; }
 
         public User()
         {

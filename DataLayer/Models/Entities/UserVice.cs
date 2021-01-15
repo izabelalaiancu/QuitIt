@@ -8,7 +8,8 @@ namespace DataLayer.Models.Entities
     {
         public string UserId { get; set; }
         public string ViceId { get; set; }
-        public int Score { get; set; }
+        public double Money { get; set; }
+        public double Score { get; set; }
         public User User { get; set; }
         public Vice Vice { get; set; }
     }

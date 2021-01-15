@@ -40,7 +40,7 @@ namespace WebApi.Controllers
         }
 
         [HttpPut("updateVices")]
-        public async Task<ActionResult<string>> UpdateVicesAsync(List<ViceDto> vicesDto)
+        public async Task<ActionResult<string>> UpdateVicesAsync([FromBody]List<ViceDto> vicesDto)
         {
             var userId = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.SerialNumber)?.Value;
             return await _userViceService.UpdateVicesAsync(userId,vicesDto);
@@ -51,6 +51,12 @@ namespace WebApi.Controllers
         {
             var userId = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.SerialNumber)?.Value;
             return await _viceService.DeleteForUserAsync(userId, viceDto);
+        }
+
+        [HttpPut("throw-in-the-thrash/{id}")]
+        public IActionResult ThrowViceInTheThrash([FromRoute] string id)
+        {
+            return Ok();
         }
     }
 }

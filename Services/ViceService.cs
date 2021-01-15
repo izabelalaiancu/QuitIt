@@ -12,6 +12,7 @@ namespace Services
     {
        Task<List<ViceDto>> GetAllAsync();
        Task<string> DeleteForUserAsync(string userId, ViceDto dto);
+       string ThrowViceInTheThrash(string userId, string viceId);
     }
 
     public class ViceService: BaseService, IViceService
@@ -38,6 +39,12 @@ namespace Services
                 await UnitOfWork.SaveChangesAsync();
             }
             return "Vice deleted!";
+        }
+
+        public string ThrowViceInTheThrash(string userId, string viceId)
+        {
+            // var vice = UnitOfWork.
+            return "Ok.";
         }
     }
 }

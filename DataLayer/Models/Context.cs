@@ -24,6 +24,8 @@ namespace DataLayer.Models
         public virtual DbSet<Notification> Notifications { get; set; }
         public virtual DbSet<Vice> Vices { get; set; }
         public virtual DbSet<UserVice> UserVices { get; set; }
+        public virtual DbSet<Achievement> Achievements { get; set; }
+
 
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

@@ -50,7 +50,7 @@ namespace WebApi.Controllers
             return notif;
         }
 
-        [HttpPatch("seen/{id}")]
+        [HttpPut("seen/{id}")]
         public async Task<ActionResult<string>> SeenNotificationAsync([FromRoute] string id)
         {
             return await _notification.SeenNotificationAsync(id);
