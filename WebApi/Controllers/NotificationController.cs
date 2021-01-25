@@ -30,7 +30,8 @@ namespace WebApi.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<List<NotificationDto>>> GetNotificationsByIdAsync()
+        [Route("mine")]
+        public async Task<ActionResult<List<NotificationDto>>> GetAllNotificationsAsync()
         {
             var userId = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.SerialNumber)?.Value;
             var notif = await _notification.GetNotificationsForUserAsync(userId);
@@ -42,11 +43,11 @@ namespace WebApi.Controllers
             return BadRequest("error la notif");
         }
 
+        [AllowAnonymous]
         [HttpPost("new")] // just for testing
         public async Task<ActionResult<NotificationDto>> AddNewNotification(NotificationDto requestDto)
         {
-            var userId = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.SerialNumber)?.Value;
-            var notif = await _notification.CreateAsync(requestDto, userId);
+            var notif = await _notification.CreateAsync(requestDto);
             return notif;
         }
 

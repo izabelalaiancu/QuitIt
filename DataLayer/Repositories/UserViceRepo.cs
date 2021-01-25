@@ -20,12 +20,14 @@ namespace DataLayer.Repositories
         public UserViceRepo(Context db) : base(db)
         {
         }
+        
 
         public async Task<List<UserVice>> GetVicesByUserIdAsync(string userId)
         {
             return await _db.UserVices.Where(v => v.UserId == userId && v.IsDeleted == false)
                 .Include(p => p.Vice)
                 .ToListAsync();
+
         }
 
         public async Task<UserVice> GetVicesByUserIdAndViceIdAsync(string userId, string viceId)

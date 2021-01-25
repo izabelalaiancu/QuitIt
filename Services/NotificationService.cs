@@ -9,7 +9,7 @@ namespace Services
 {
     public interface INotificationService : IBaseService
     {
-        Task<NotificationDto> CreateAsync(NotificationDto dto, string userId);
+        Task<NotificationDto> CreateAsync(NotificationDto dto);
         Task<string> SeenNotificationAsync(string notificationId);
         Task<List<NotificationDto>> GetNotificationsForUserAsync(string userId);
         Task<NotificationDto> GetByIdAsync(string id);
@@ -29,13 +29,14 @@ namespace Services
             return notification == null ? null : _mapper.Map<NotificationDto>(notification);
         }
 
-        public async Task<NotificationDto> CreateAsync(NotificationDto dto, string userId)
+        public async Task<NotificationDto> CreateAsync(NotificationDto dto)
         {
             var notification = new Notification
             {
-                UserId = userId,
+                UserId = dto.UserId,
                 Title = dto.Title,
-                Text = dto.Text
+                Text = dto.Text,
+                Seen = false
             };
             UnitOfWork.Notifications.Add(notification);
             await UnitOfWork.SaveChangesAsync();
@@ -56,7 +57,12 @@ namespace Services
         public async Task<List<NotificationDto>> GetNotificationsForUserAsync(string userId)
         {
             var notifications = await UnitOfWork.Notifications.GetUnseenByUserIdAsync(userId);
-            return _mapper.Map<List<NotificationDto>>(notifications);
+            if (notifications != null)
+            {
+                return _mapper.Map<List<NotificationDto>>(notifications);
+            }
+
+            return null;
         }
 
     }

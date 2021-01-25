@@ -46,3 +46,15 @@ C:\Users\raluc\source\repos\Faculty\QuitIt\Services\obj\Debug\netcoreapp3.1\Serv
 C:\Users\raluc\source\repos\Faculty\QuitIt\Services\obj\Debug\netcoreapp3.1\Services.csproj.CopyComplete
 C:\Users\raluc\source\repos\Faculty\QuitIt\Services\obj\Debug\netcoreapp3.1\Services.dll
 C:\Users\raluc\source\repos\Faculty\QuitIt\Services\obj\Debug\netcoreapp3.1\Services.pdb
+C:\Users\izabe\Documents\Facultet\IP\new repo\QuitIt\Services\bin\Debug\netcoreapp3.1\Services.deps.json
+C:\Users\izabe\Documents\Facultet\IP\new repo\QuitIt\Services\bin\Debug\netcoreapp3.1\Services.dll
+C:\Users\izabe\Documents\Facultet\IP\new repo\QuitIt\Services\bin\Debug\netcoreapp3.1\Services.pdb
+C:\Users\izabe\Documents\Facultet\IP\new repo\QuitIt\Services\bin\Debug\netcoreapp3.1\DataLayer.dll
+C:\Users\izabe\Documents\Facultet\IP\new repo\QuitIt\Services\bin\Debug\netcoreapp3.1\DataLayer.pdb
+C:\Users\izabe\Documents\Facultet\IP\new repo\QuitIt\Services\obj\Debug\netcoreapp3.1\Services.csprojAssemblyReference.cache
+C:\Users\izabe\Documents\Facultet\IP\new repo\QuitIt\Services\obj\Debug\netcoreapp3.1\Services.AssemblyInfoInputs.cache
+C:\Users\izabe\Documents\Facultet\IP\new repo\QuitIt\Services\obj\Debug\netcoreapp3.1\Services.AssemblyInfo.cs
+C:\Users\izabe\Documents\Facultet\IP\new repo\QuitIt\Services\obj\Debug\netcoreapp3.1\Services.csproj.CoreCompileInputs.cache
+C:\Users\izabe\Documents\Facultet\IP\new repo\QuitIt\Services\obj\Debug\netcoreapp3.1\Services.csproj.CopyComplete
+C:\Users\izabe\Documents\Facultet\IP\new repo\QuitIt\Services\obj\Debug\netcoreapp3.1\Services.dll
+C:\Users\izabe\Documents\Facultet\IP\new repo\QuitIt\Services\obj\Debug\netcoreapp3.1\Services.pdb
