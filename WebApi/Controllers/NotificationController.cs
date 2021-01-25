@@ -45,7 +45,7 @@ namespace WebApi.Controllers
 
         [AllowAnonymous]
         [HttpPost("new")] // just for testing
-        public async Task<ActionResult<NotificationDto>> AddNewNotification(NotificationDto requestDto)
+        public async Task<ActionResult<NotificationCreateDto>> AddNewNotification(NotificationCreateDto requestDto)
         {
             var notif = await _notification.CreateAsync(requestDto);
             return notif;

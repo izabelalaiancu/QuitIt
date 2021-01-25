@@ -12,7 +12,11 @@ namespace Services.AutoMapperProfiles
         public GenericProfile()
         {
             CreateMap<Notification, NotificationDto>().ReverseMap();
-            //CreateMap<Vice, ViceDto>().ReverseMap();
+            CreateMap<UserVice, ViceDto>()
+                .ForMember(src => src.Name, opt => opt.MapFrom(dest => dest.Vice.Name))
+                .ForMember(src => src.ViceId, opt => opt.MapFrom(dest => dest.Vice.Id))
+                .ForMember(src => src.Score, opt => opt.MapFrom(dest => dest.Score))
+                .ReverseMap();
         }
     }
 }

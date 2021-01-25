@@ -12,7 +12,7 @@ namespace Services
     {
        Task<List<ViceDto>> GetAllAsync();
        Task<string> DeleteForUserAsync(string userId, ViceDto dto);
-       string ThrowViceInTheThrash(string userId, string viceId);
+       Task<string> ThrowViceInTheThrash(string userId, string viceId);
     }
 
     public class ViceService: BaseService, IViceService
@@ -30,6 +30,17 @@ namespace Services
             return _mapper.Map<List<ViceDto>>(vices);
         }
 
+        public async Task<string> ThrowViceInTheThrash(string viceId, string userId)
+        {
+            var userVice = await UnitOfWork.UserVices.GetVicesByUserIdAndViceIdAsync(userId, viceId);
+            if (userVice == null)
+                return "UserVice not found";
+            userVice.Score += 1;
+            UnitOfWork.UserVices.Update(userVice);
+            await UnitOfWork.SaveChangesAsync();
+            return "Bine Boss!!";
+        }
+
         public async Task<string> DeleteForUserAsync(string userId, ViceDto dto)
         {
             var userVice = await UnitOfWork.UserVices.GetVicesByUserIdAndViceIdAsync(userId, dto.ViceId);
@@ -41,10 +52,5 @@ namespace Services
             return "Vice deleted!";
         }
 
-        public string ThrowViceInTheThrash(string userId, string viceId)
-        {
-            // var vice = UnitOfWork.
-            return "Ok.";
-        }
     }
 }

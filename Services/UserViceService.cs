@@ -15,7 +15,7 @@ namespace Services
     public interface IUserViceService : IBaseService
     {
         Task<List<ViceDto>> ReturnAsync(string userId);
-        Task<string> UpdateVicesAsync(string userId, List<ViceDto> vicesDto);
+        Task<string> UpdateVicesAsync(string userId, List<AddViceDto> vicesDto);
     }
 
     public class UserViceService : BaseService, IUserViceService
@@ -32,33 +32,31 @@ namespace Services
         public async Task<List<ViceDto>> ReturnAsync(string userId)
         {
             var vices = await UnitOfWork.UserVices.GetVicesByUserIdAsync(userId);
-            var v = _mapper.Map<List<Vice>>(vices);
-            return _mapper.Map<List<ViceDto>>(v);
+            return _mapper.Map<List<ViceDto>>(vices);
         }
 
-        public async Task<string> UpdateVicesAsync(string userId, List<ViceDto> vicesDto)
+        public async Task<string> UpdateVicesAsync(string userId, List<AddViceDto> vicesDto)
         {
             var user = await _userManager.FindByIdAsync(userId);
             if (user == null)
                 return null;
-            var vices = _mapper.Map<List<Vice>>(vicesDto);
 
             var oldVices = await UnitOfWork.UserVices.GetVicesByUserIdAsync(userId);
             var oldVicesIds = oldVices.Select(v => v.ViceId).ToList();
 
-            foreach (var vice in vices)
+            foreach (var viceId in vicesDto)
             {
-                if(!oldVicesIds.Contains(vice.Id))
+                if(!oldVicesIds.Contains(viceId.ViceId))
                     UnitOfWork.UserVices.Add(new UserVice
                     {
                         Score = 0,
                         UserId = userId,
-                        ViceId = vice.Id,
+                        ViceId = viceId.ViceId,
                        
                     });
             }
 
-            var deletedVices = oldVicesIds.Where(v => vices.All(vn => v != vn.Id)).ToList();
+            var deletedVices = oldVicesIds.Where(v => vicesDto.All(vn => v != vn.ViceId)).ToList();
             if (deletedVices.Any())
             {
                 foreach (var deletedVice in deletedVices)

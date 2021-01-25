@@ -4,10 +4,8 @@ using System.Text;
 
 namespace Services.Dtos
 {
-    public class ViceDto
-    { 
-        public string Name { get; set; }
+    public class AddViceDto
+    {
         public string ViceId { get; set; }
-        public double Score { get; set; }
     }
 }
