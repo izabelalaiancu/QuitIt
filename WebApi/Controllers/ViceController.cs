@@ -59,5 +59,26 @@ namespace WebApi.Controllers
             var userId = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.SerialNumber)?.Value;
             return await _viceService.ThrowViceInTheThrash(viceId, userId);
         }
+
+        [HttpGet("score")]
+        public async Task<IActionResult> GetMyScore()
+        {
+            var userId = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.SerialNumber)?.Value;
+            var scores = await _viceService.GetMyScoreAsync(userId);
+
+            var response = new ScoresDto
+            {
+                MoneySaved = scores.Item1,
+                Score = scores.Item2
+            };
+            return Ok(response);
+        }
+
+        [HttpGet("top-users")]
+        public async Task<IActionResult> GetTopUsersAsync()
+        {
+            var users = await _viceService.GetTopUsersAsync();
+            return Ok(users);
+        }
     }
 }

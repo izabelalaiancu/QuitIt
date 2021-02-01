@@ -13,6 +13,7 @@ namespace DataLayer.Repositories
     {
         Task<List<UserVice>> GetVicesByUserIdAsync(string userId);
         Task<UserVice> GetVicesByUserIdAndViceIdAsync(string userId, string viceId);
+        Task<List<UserVice>> GetWithUsersAndVicesAsync();
     }
 
     public class UserViceRepo: BaseRepository<UserVice>, IUserViceRepo
@@ -35,6 +36,14 @@ namespace DataLayer.Repositories
             return await _db.UserVices.Where(v => v.UserId == userId && v.ViceId == viceId)
                 .Include(p => p.Vice)
                 .FirstOrDefaultAsync();
+        }
+
+        public async Task<List<UserVice>> GetWithUsersAndVicesAsync()
+        {
+            return await _dbSet.Where(x => !x.IsDeleted)
+                .Include(x => x.User)
+                .Include(x => x.Vice)
+                .ToListAsync();
         }
     }
 }

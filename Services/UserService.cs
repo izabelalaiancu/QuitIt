@@ -58,6 +58,15 @@ namespace Services
                 }
                 await UnitOfWork.Users.AddToRoleAsync(user, Role.User);
             }
+
+            //notification
+            var notification = new Notification
+            {
+                Text = "Welcome to our marvellous app!",
+                UserId = user.Id
+            };
+
+            UnitOfWork.Notifications.Add(notification);
             await UnitOfWork.SaveChangesAsync();
             return result;
         }

@@ -42,6 +42,7 @@ namespace WebApi.Controllers
             var user = new User();
             user = _mapper.Map<UserDto, User>(payload);
 
+
             var result = await _userService.RegisterAccountAsync(user, payload.Password);
             if (result.Succeeded)
                 return Ok("Yay. Now you're somebody.");
