@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Security.Claims;
-using System.Text;
-using System.Threading.Tasks;
-using DataLayer;
+﻿using DataLayer;
 using DataLayer.Models.Entities;
 using Microsoft.AspNetCore.Identity;
+using System.Security.Claims;
+using System.Threading.Tasks;
 
 namespace Services
 {
