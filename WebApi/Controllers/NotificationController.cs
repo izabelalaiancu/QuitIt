@@ -47,7 +47,10 @@ namespace WebApi.Controllers
         [HttpPost("new")] // just for testing
         public async Task<ActionResult<NotificationCreateDto>> AddNewNotification(NotificationCreateDto requestDto)
         {
+            if (requestDto.UserId == null)
+                requestDto.UserId = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.SerialNumber)?.Value;
             var notif = await _notification.CreateAsync(requestDto);
+            
             return notif;
         }
 

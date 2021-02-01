@@ -6,7 +6,6 @@ namespace Services.Dtos
 {
     public class NotificationCreateDto
     {
-        public string Id { get; set; }
         public string UserId { get; set; }
         public bool Seen { get; set; }
         public string Title { get; set; }
