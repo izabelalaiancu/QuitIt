@@ -123,6 +123,7 @@ namespace WebApi
             services.AddScoped<INotificationRepository, NotificationRepository>();
             services.AddScoped<IViceRepository, ViceRepository>();
             services.AddScoped<IUserViceRepo, UserViceRepo>();
+            services.AddScoped<IAchievementRepository, AchievementRepository>();
         }
 
         private void AddServices(IServiceCollection services)
@@ -132,6 +133,7 @@ namespace WebApi
             services.AddScoped<IViceService, ViceService>();
             services.AddScoped<IUserViceService, UserViceService>();
             services.AddScoped<INotificationService, NotificationService>();
+            services.AddScoped<IAchievementService, AchievementService>();
         }
 
 

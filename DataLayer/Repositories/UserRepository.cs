@@ -1,4 +1,6 @@
-﻿using DataLayer.Models.Entities;
+﻿using System.Collections.Generic;
+using System.Linq;
+using DataLayer.Models.Entities;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using System.Security.Claims;
@@ -15,6 +17,7 @@ namespace DataLayer.Repositories
         Task<User> GetUserByEmail(string email);
         Task<IdentityResult> AddClaimAsync(User user, Claim claim);
         Task<IdentityResult> AddToRoleAsync(User user, string role);
+        Task<List<User>> GetAllAsync();
     }
     public class UserRepository : IUserRepository
     {
@@ -58,6 +61,12 @@ namespace DataLayer.Repositories
         public async Task<IdentityResult> AddToRoleAsync(User user, string role)
         {
             return await _userManager.AddToRoleAsync(user, role);
+        }
+
+        public async Task<List<User>> GetAllAsync()
+        {
+            return await _userManager.Users.Include(u => u.UserVices)
+                .ToListAsync();
         }
     }
 }

@@ -14,6 +14,7 @@ namespace DataLayer
         INotificationRepository Notifications { get; set; }
         IViceRepository Vices { get; set; }
         IUserViceRepo UserVices { get; set; }
+        IAchievementRepository Achievements { get; set; }
         Task SaveChangesAsync();
 
     }
@@ -26,14 +27,21 @@ namespace DataLayer
         public IViceRepository Vices { get; set; }
         public IUserViceRepo UserVices { get; set; }
         public Context Context { get; set; }
+        public IAchievementRepository Achievements { get; set; }
 
-        public UnitOfWork(Context context, IUserRepository userRepository, INotificationRepository notificationRepository, IUserViceRepo userVice, IViceRepository vice)
+        public UnitOfWork(Context context, 
+            IUserRepository userRepository, 
+            INotificationRepository notificationRepository, 
+            IUserViceRepo userVice, 
+            IViceRepository vice,
+            IAchievementRepository achievementRepository)
         {
             Context = context;
             Vices = vice;
             UserVices = userVice;
             Users = userRepository;
             Notifications = notificationRepository;
+            Achievements = achievementRepository;
         }
 
         public async Task SaveChangesAsync()

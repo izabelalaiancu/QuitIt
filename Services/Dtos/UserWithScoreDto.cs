@@ -1,6 +1,6 @@
 ﻿namespace Services.Dtos
 {
-    public class UserDto
+    public class UserWithScoreDto
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }

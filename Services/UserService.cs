@@ -1,4 +1,5 @@
-﻿using DataLayer;
+﻿using System.Collections.Generic;
+using DataLayer;
 using DataLayer.Models.Entities;
 using Microsoft.AspNetCore.Identity;
 using System.Security.Claims;
@@ -59,7 +60,8 @@ namespace Services
             //notification
             var notification = new Notification
             {
-                Text = "Welcome to our marvellous app!",
+                Title = "Welcome to QuitIt!",
+                Text = " Welcome to our marvelous app! We, at CoffeeFueledPandas, hope our app will help you reach your goal! Good luck!",
                 UserId = user.Id
             };
 
@@ -78,5 +80,6 @@ namespace Services
         {
             return await UnitOfWork.Users.GetUserByEmail(email);
         }
+
     }
 }
